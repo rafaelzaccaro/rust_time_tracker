@@ -1,0 +1,13 @@
+[package]
+name = "rusty_timer_cli"
+version = "1.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4.33"
+serde = { version = "1.0.196", features = ["derive"] }
+serde_json = { version = "1.0.113", features = ["preserve_order"] }
+crossterm = "0.27.0"
+clap = { version = "4.4.18", features = ["derive"] }
